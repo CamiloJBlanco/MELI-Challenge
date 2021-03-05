@@ -1,0 +1,46 @@
+@import './variables';
+
+#header {
+    background-color: $color-meli;
+    min-height: 50px;
+    padding: 1rem 2rem;
+    margin: 0 auto;
+}
+
+.header-container {
+    display: flex;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.logo {
+    margin-top: 5px;
+}
+
+.form-search{
+    display: flex;
+    width: $size-full;
+    @extend %reset-style;
+}
+
+.input-search {
+    flex: 10 1;
+    margin-left: 30px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;    
+    padding: 8px;
+    @extend %reset-style;
+    font-size: 18px;
+    font-weight: normal;
+    color: #999;
+}
+
+.btn-search {
+    flex: 1 1;
+    max-width: 40px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    background: no-repeat url("../images/ic_Search.png") #eee 50% 50%;
+    cursor: pointer;
+    @extend %reset-style;
+}

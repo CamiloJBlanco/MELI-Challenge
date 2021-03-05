@@ -1,0 +1,45 @@
+@import './variables';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #eee;
+  font-family: $font-family-sans-serif;
+  min-height: 100vh;
+}
+
+.home, .items, .loading {
+  max-width: 1140px;
+  padding: 0 2rem;
+  margin: 46px auto 0;
+}
+
+.card-fluid {
+  background-color: #fff;
+  border-radius: 4px;
+  display: block;
+}
+
+.card-message {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  padding: 2rem;
+}
+
+.card-textbox {
+  margin: 50px;
+}
+
+.card-smalltitle{
+  color: #999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}

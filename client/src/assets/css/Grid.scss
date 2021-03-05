@@ -1,0 +1,176 @@
+
+%grid{
+    float: left;
+}
+
+//Columns
+.col-1 {
+    width: 8.3333%;
+    @extend %grid;
+}
+
+.col-2 {
+    width: 16.6666%;
+    @extend %grid;
+}
+
+.col-3 {
+    width: 24.9999%;
+    @extend %grid;
+}
+
+.col-4 {
+    width: 33.3332%;
+    @extend %grid;
+}
+
+.col-5 {
+    width: 41.6665%;
+    @extend %grid;
+}
+
+.col-6 {
+    width: 50%;
+    @extend %grid;
+}
+
+.col-7 {
+    width: 58.3331%;
+    @extend %grid;
+}
+
+.col-8 {
+    width: 66.6664%;
+    @extend %grid;
+}
+
+.col-9 {
+    width: 74.9997%;
+    @extend %grid;
+}
+
+.col-10 {
+    width: 83.333%;
+    @extend %grid;
+}
+
+.col-11 {
+    width: 91.6663%;
+    @extend %grid;
+}
+
+.col-12 {
+    width: 100%;
+    @extend %grid;
+}
+
+//Offsets
+.offset-l1 {
+    margin-left: 8.3333%;
+    @extend %grid;
+}
+
+.offset-l2 {
+    margin-left: 16.6666%;
+    @extend %grid;
+}
+
+.offset-l3 {
+    margin-left: 24.9999%;
+    @extend %grid;
+}
+
+.offset-l4 {
+    margin-left: 33.3332%;
+    @extend %grid;
+}
+
+.offset-l5 {
+    margin-left: 41.6665%;
+    @extend %grid;
+}
+
+.offset-l6 {
+    margin-left: 50%;
+    @extend %grid;
+}
+
+.offset-l7 {
+    margin-left: 58.3331%;
+    @extend %grid;
+}
+
+.offset-l8 {
+    margin-left: 66.6664%;
+    @extend %grid;
+}
+
+.offset-l9 {
+    margin-left: 74.9997%;
+    @extend %grid;
+}
+
+.offset-l10 {
+    margin-left: 83.333%;
+    @extend %grid;
+}
+
+.offset-l11 {
+    margin-left: 91.6663%;
+    @extend %grid;
+}
+
+.offset-r1 {
+    margin-right: 8.3333%;
+    @extend %grid;
+}
+
+.offset-r2 {
+    margin-right: 16.6666%;
+    @extend %grid;
+}
+
+.offset-r3 {
+    margin-right: 24.9999%;
+    @extend %grid;
+}
+
+.offset-r4 {
+    margin-right: 33.3332%;
+    @extend %grid;
+}
+
+.offset-r5 {
+    margin-right: 41.6665%;
+    @extend %grid;
+}
+
+.offset-r6 {
+    margin-right: 50%;
+    @extend %grid;
+}
+
+.offset-r7 {
+    margin-right: 58.3331%;
+    @extend %grid;
+}
+
+.offset-r8 {
+    margin-right: 66.6664%;
+    @extend %grid;
+}
+
+.offset-r9 {
+    margin-right: 74.9997%;
+    @extend %grid;
+}
+
+.offset-r10 {
+    margin-right: 83.333%;
+    @extend %grid;
+}
+
+.offset-r11 {
+    margin-right: 91.6663%;
+    @extend %grid;
+}
